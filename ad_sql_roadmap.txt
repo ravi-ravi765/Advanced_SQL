@@ -1,0 +1,165 @@
+📅 Week 1 – SQL Basics & Setup
+
+Goal: Understand databases, tables, and basic queries.
+
+Topics:
+
+Day 1: What is SQL, RDBMS, Database vs Table, Installing PostgreSQL / SQLite
+
+Day 2: Creating databases and tables
+
+Day 3: Data types and constraints
+
+Day 4: Basic SELECT, FROM, WHERE
+
+Day 5: Sorting and filtering (ORDER BY, LIMIT)
+
+Day 6: INSERT, UPDATE, DELETE
+
+Day 7: Mini-project — Create a simple employee database and query data
+
+Practice:
+
+Write SQL to create a table employees with name, age, salary
+
+Insert 10 rows and practice filtering (e.g., employees > 30 years old)
+
+📅 Week 2 – Aggregations & Joins
+
+Goal: Learn how to combine and summarize data.
+
+Topics:
+
+Day 1: GROUP BY and aggregate functions (SUM, AVG, COUNT)
+
+Day 2: Filtering groups with HAVING
+
+Day 3: Introduction to JOINs (INNER, LEFT, RIGHT)
+
+Day 4: Joining multiple tables
+
+Day 5: Subqueries and derived tables
+
+Day 6: Practice complex joins
+
+Day 7: Mini-project — Sales + Customers dataset → Total sales per customer
+
+Practice:
+
+Combine sales and customers tables using joins
+
+Find customers with total purchases > 5000
+
+📅 Week 3 – Advanced SQL Transformations
+
+Goal: Handle complex logic and transformations.
+
+Topics:
+
+Day 1: CASE WHEN expressions
+
+Day 2: String functions (UPPER, SUBSTR, CONCAT)
+
+Day 3: Date functions (DATEADD, EXTRACT, DATEDIFF)
+
+Day 4: NULL handling (COALESCE, ISNULL)
+
+Day 5: Common Table Expressions (CTEs)
+
+Day 6: Views and materialized views
+
+Day 7: Mini-project — Clean and transform raw data (like missing values or formatting)
+
+Practice:
+
+Write SQL to classify employees by salary range (Low, Medium, High)
+
+Create a view that shows average salary per department
+
+📅 Week 4 – Window Functions & Performance
+
+Goal: Learn ranking, partitions, and optimization.
+
+Topics:
+
+Day 1: What are window functions
+
+Day 2: ROW_NUMBER, RANK, DENSE_RANK
+
+Day 3: LAG, LEAD for time-based comparisons
+
+Day 4: Partitioning with OVER(PARTITION BY ...)
+
+Day 5: Query optimization basics (indexes, execution plan)
+
+Day 6: Transactions and ACID properties
+
+Day 7: Mini-project — Top N salaries per department using window functions
+
+Practice:
+
+Write SQL to find the 2nd highest salary in each department
+
+📅 Week 5 – SQL for ETL & Data Pipelines
+
+Goal: Apply SQL in data processing and pipeline design.
+
+Topics:
+
+Day 1: ETL overview — extract, transform, load
+
+Day 2: Using SQL for transformations
+
+Day 3: Writing insert-select queries for staging tables
+
+Day 4: Incremental loads and deduplication
+
+Day 5: Using SQL with Python (pandas + SQLAlchemy)
+
+Day 6: Working with Airflow/dbt overview
+
+Day 7: Mini-project — Simulate an ETL pipeline using SQL + Python
+
+Practice:
+
+Write SQL to merge daily sales data into a master table
+
+Use Python to connect to your DB and execute queries
+
+📅 Week 6 – Data Modeling & Big Data SQL
+
+Goal: Learn data warehouse structures and scalable SQL.
+
+Topics:
+
+Day 1: Star schema vs Snowflake schema
+
+Day 2: Fact and dimension tables
+
+Day 3: Partitioning and clustering
+
+Day 4: Data warehouse concepts (Redshift, BigQuery, Snowflake)
+
+Day 5: Writing efficient queries in BigQuery (LIMIT, PARTITION, etc.)
+
+Day 6: Optimization strategies for large datasets
+
+Day 7: Final Project — Build a mini data warehouse (sales + products + customers)
+
+Practice:
+
+Design a star schema for an e-commerce business
+
+Write a query to get monthly revenue by product category
+
+🎯 Final Outcome
+
+By the end of 6 weeks, you’ll be able to:
+
+Write optimized SQL queries from scratch
+
+Build ETL workflows using SQL + Python
+
+Design data models (fact/dimension tables)
+
+Handle data in warehouses like BigQuery, Snowflake, or Redshift
